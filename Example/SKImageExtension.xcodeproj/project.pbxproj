@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		16AB260D9D162443DED118F9 /* Pods_SKImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F861ADF3981DFB46746C0EC /* SKImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKImageExtension.podspec; path = ../SKImageExtension.podspec; sourceTree = "<group>"; };
-		3A4E29DA58B09BE500E101D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F861ADF3981DFB46746C0EC /* SKImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKImageExtension.podspec; path = ../SKImageExtension.podspec; sourceTree = "<group>"; };
+		3A4E29DA58B09BE500E101D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4810E70F1AF20F612B6D8661 /* Pods_SKImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492837793E107D9FA31046CD /* Pods-SKImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKImageExtension_Example/Pods-SKImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SKImageExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKImageExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* SKImageExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKImageExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		675A2BEB56639E2375ED86FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		675A2BEB56639E2375ED86FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75F64334622BBB16F30C93FB /* Pods-SKImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKImageExtension_Tests/Pods-SKImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5ADF9AE71D7722E8BC339CF /* Pods-SKImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKImageExtension_Tests/Pods-SKImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F33B8DBC07E78BD676C1A783 /* Pods-SKImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKImageExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKImageExtension_Example/Pods-SKImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -377,12 +377,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,12 +432,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
